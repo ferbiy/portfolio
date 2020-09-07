@@ -1,0 +1,31 @@
+html {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.animated-bg {
+  position: absolute;
+  z-index: 50;
+}
+
+@media (max-width: 768px) {
+  .hide-arrow {
+    display: none;
+  }
+  .delete-margin {
+    margin-left: 0 !important;
+    /* margin-right: 0 !important; */
+  }
+  .black-back {
+    background-color: black !important;
+  }
+  html {
+    /* background-color: black; */
+  }
+}
